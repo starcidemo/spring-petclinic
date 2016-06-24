@@ -370,6 +370,9 @@
                 <version>${cobertura.version}</version>
                 <configuration>
                     <check/>
+                    <formats>
+                        <format>xml</format>
+                    </formats>
                 </configuration>
                 <executions>
                     <execution>
