@@ -314,12 +314,6 @@
                     <includes>
                         <include>**/*Tests.java</include>
                     </includes>
-                    <properties>
-                        <property>
-                            <name>listener</name>
-                            <value>org.sonar.java.jacoco.JUnitListener</value>
-                        </property>
-                    </properties>
                 </configuration>
             </plugin>
             <plugin>
